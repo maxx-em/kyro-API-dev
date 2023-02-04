@@ -1,0 +1,25 @@
+{
+	"name": "kyro-api-dev",
+	"version": "0.0.1",
+	"description": "The official development repo for the Kyro API, a Server Management Bot for Discord or basicilly the Discord version of [Click Up](https://clickup.com/).",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/viiszc/kyro-API-dev.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/viiszc/kyro-API-dev/issues"
+	},
+	"homepage": "https://github.com/viiszc/kyro-API-dev#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"mongoose": "^6.9.0",
+		"node-fetch": "^3.3.0"
+	}
+}
