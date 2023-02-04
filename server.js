@@ -27,12 +27,13 @@ const PORT = 3000;
 server = http.createServer(app);
 
 // MongoDB
+mongoose.set("strictQuery", true);
+
 mongoose
 	.connect(
 		`mongodb+srv://lenacd:${mongo_db}@testing-database.5bj1ur1.mongodb.net/?retryWrites=true&w=majority`
 	)
 	.then(() => {
-		mongoose.set("strictQuery", true);
 		console.log("MongoDB Connected");
 	})
 	.catch((e) => console.log("[API Error]: ", e));

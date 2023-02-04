@@ -105,3 +105,6 @@ dist
 
 # Config folder
 /config
+
+# Models JSON folder
+/json
